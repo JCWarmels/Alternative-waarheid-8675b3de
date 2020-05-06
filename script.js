@@ -32,7 +32,7 @@ function checkAnswers()
     if (results.first) {
         document.getElementById("ShowOut").innerHTML = "Alle antwoorden zijn correct!";
     } else {
-        document.getElementById("ShowOut").innerHTML = "Je hebt " + results.second + " vraag goed beantwoord en " + results.third + " vraag fout beantwoord!";
+        document.getElementById("ShowOut").innerHTML = "Je hebt " + results.second + " vraag/vragen goed beantwoord en " + results.third + " vraag/vragen fout beantwoord!";
     }
 }
 
